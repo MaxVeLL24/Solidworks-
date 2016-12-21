@@ -239,3 +239,114 @@ Read fld took 0.04 sec.
 ]]>
 </Block>
 </Block>
+<Block caption="simple" number="3">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.14393)
+GenuineIntel, Stepping ID = 3, Model = 12, Family = 6, Extended model = 3, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+80 parameter(s) in list of scalar parameters
+3 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="5">
+<![CDATA[
+80 parameter(s) in list of scalar parameters
+3 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="6">
+<![CDATA[
+80 parameter(s) in list of scalar parameters
+3 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="7">
+<![CDATA[
+80 parameter(s) in list of scalar parameters
+3 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="8">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.14393)
+GenuineIntel, Stepping ID = 3, Model = 12, Family = 6, Extended model = 3, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="Vwr::LoadFlowField" number="0">
+<![CDATA[
+EXTERNAL=1   LAMTURB=1   CHT=0
+IT=6   NT=2   NZ=1
+U_DIM_EXT_MAX=8   US_DIM=0
+-----------------------------------------------------------------------
+Allocating meshes:
+	CPU count: 4
+	MESH 0:
+		Sub-meshes count: 4
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays) (cpu_num=4):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 fluid av=4316 cv=4316 fa=11912 fw=2956 V=2.404422e-003
+	GEOMSUBDOM (1): gi=1 solid av=3052 cv=3052 fa=6512 fw=6016 V=7.401947e-004
+	Setting nb of w-faces...OK.
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=0.7326162027226002 fw_s=0.1556490853294289 fw_nb=24638
+	GEOMSUBDOM (1):fa_s=0.1997896355142454 fw_s=0.3495423378094294 fw_nb=36886
+MESH (0) checking: OK.
+----------------------------------------------------------
+Read cpt took 0.15 sec.
+
+===ThermodynamicsHolder:===
+Subdom 0 Incompressible liquid thermodynamic
+	substance 0 type=fwLiquid, guid=6D4EB34F944911D4B47100A024552746, name=Water
+===ThermodynamicsHolder:===
+MESH::Bricks: Total=4684 Gas=1632 Solid=368 Partial=2684 Irregular=0
+CD X0= -0.034068, X1= 0.034068, Y0= -0.034068, Y1= 0.034068, Z0= 0.001324, Z1= 0.678676
+Working in No GDBLight mode
+Working in No GDBLight mode
+Read cfld took 0.06 sec.
+Collecting Reference Parameters... OK
+Read fld took 0.40 sec.
+
+]]>
+<Block caption="simple" number="9">
+<![CDATA[
+75 parameter(s) in list of scalar parameters
+3 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+</Block>
+<Block caption="VWr::CollectFaces" number="0">
+</Block>
+<Block caption="VWr::CollectFaces" number="1">
+</Block>
+<Block caption="VWr::CollectFaces" number="2">
+</Block>
+<Block caption="VWr::CollectFaces" number="3">
+</Block>
+<Block caption="VWr::CollectFaces" number="4">
+</Block>
