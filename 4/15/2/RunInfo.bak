@@ -1,14 +1,14 @@
-﻿absolute path:C:\Users\PawlenkoMO\Desktop\SolidWorks_pawl\Rfvftd\Гепарди\15\2
+﻿absolute path:C:\Users\pawle\Desktop\Solidworks\4\15\2
 init:1
 run_capture:1
 run_solver:1
 new_calc:1
 close_monitor:0
-run_convert:1158046576
+run_convert:0
 isOK:1
 ForceNewCalc:1
 run_capture_prestate:1
-StartFldName:
+StartFldName:C:\Users\pawle\Desktop\Solidworks\4\15\2\2.fld
 TransTimeMoments:
 TransFldNames:
 CurSelTranFld:0
@@ -16,13 +16,13 @@ Trans:0
 UsePrevRes:0
 ForcetoRunCPT:1
 ComputerName:
-port:56803
+port:58091
 ProcessResults:1
 LoadLastResult:1
-ProcessorsToUse:4
+ProcessorsToUse:0
 LoadBaseFLDFile:0
 BaseFLDFile:
-id:{C4E3D8E5-5110-491C-A67E-34A08CC94760}
+id:{5D6DFBFA-5288-45AE-A981-014CBC0B046B}
 calculation_state:15
 ForceContinue:0
-SolverProcessId:8660
+SolverProcessId:4568

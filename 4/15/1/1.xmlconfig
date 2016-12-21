@@ -1009,7 +1009,7 @@
 <MaxIter value="100"/>
 <MaxPhysTime value="1"/>
 <MinRefinementNum value="0"/>
-<RRL value="2"/>
+<RRL value="3"/>
 <Rad_Ray_Tracing_Backward value="1"/>
 <Rad_n_DO_OrdinatesLevel value="3"/>
 <RadiationFreezingPeriodicity value="2"/>
@@ -4046,8 +4046,7 @@
 <WarningCommentFormat25 value="Пожалуйста, проверьте, что поверхность соприкосновения текучей среды с текучей средой принадлежит области %s и %s является осесимметричной."/>
 <WarningCommentFormat26 value="Имя условия : %s"/>
 <WarningCommentFormat27 value="Имя условия : %s"/>
-<WarningCommentFormat28 value="Невозможно сохранить файл. Диск переполнен или нет разрешения на запись.
-Имя файла: %s"/>
+<WarningCommentFormat28 value=""/>
 <WarningCommentFormat29 value="Рекомендуется определение глобальной цели по средней плотности."/>
 <WarningCommentFormat3 value="dV/V=%g"/>
 <WarningCommentFormat30 value="Заданный %s; Определенный автоматически %s"/>

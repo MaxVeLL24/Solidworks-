@@ -4775,3 +4775,401 @@ alg :  symbolic_PardisoLU            0.001  1
 alg :  update_mg_status              0.000  132
 Free Geometry DB takes 0.000 s
 OK
+Number of used processors (NPROC): 4.
+Number of mesh partitions (NPART): 4.
+Computer name:	DESKTOP-MEK70AJ
+Operating system:	Windows 10 (or higher) (Version 10.0.14393)
+Total Physical Memory = 7.96 Gb, Available Physical Memory = 4.83 Gb
+Memory Working Set Current = 17.26 Mb, Memory Working Set Peak = 17.26 Mb
+CPU:	GenuineIntel, Stepping ID = 3, Model = 12, Family = 6, Extended model = 3, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+SOLIDWORKS 2017 SP1.0
+C:\Users\pawle\Desktop\Solidworks\4\15\1\1.fld
+Configuration name:	Default
+Project name:	Проект2
+/*******************************************/
+/*         Project Summary                 */
+/*******************************************/
+Problem type:						internal
+Result resolution:					3
+Minimum gap size:					0.06513
+Minimum wall thickness:				0.06513
+Manual refinement:					Off
+Solid refinement:					Off
+Fluid substances count				1
+
+		Advanced capabilities
+Heat transfer						On
+Transient						Off
+Gravitation						Off
+Laminar flow						Off
+Compressibility					Off
+Number of solid substances			0
+Roughness:						0
+
+************************************************
+
+Geometry database loading ...OK
+Flow Simulation 2017  x64 / 3675 / SOLVER ver. efd_16_0.3630_05.09.2016+HYBRID_bugfix 
+BRANCH: efd_16_0.3675_20.10.2016
+
+
+
+STATIONARY
+
+
+LAM-BREMHORST K-EPSILON TURBULENCE MODEL
+EXTERNAL=1  CHT=0  FROZEN=0  P_REF=1  RADIATION=0  HVAC_COMFORT_PARAMETERS=0
+-----------------------------------------------------------------------
+Allocating meshes:
+	CPU count: 4
+	MESH 0:
+		Sub-meshes count: 4
+-----------------------------------------------------------------------
+Memory Status before reading BCF:
+Memory Working Set Current = 22.70 Mb, Memory Working Set Peak = 22.70 Mb
+
+-----------------------------------------------------------------------
+BCF CHECKSUM DATA (Mesh 0):
+
+FACE_A Area Sum:   G.Fluid        0.6690186693950678
+FACE_A Area Sum:   G.Solid        0.1827911689812108
+FACE_W Area Sum:                  0.3192533456656785
+FACE_W Nb   Sum:                  36872
+FACE_W min curvatures sum:        -85649.98221397
+FACE_W max curvatures sum:        0.00000000
+AV Max Disbalance: G.Fluid        6.18612e-015 (cid=4136, avid=3806, pid=2350)
+AV Max Disbalance: G.Solid        7.50765e-015 (cid=4563, avid=7279, pid=2601)
+-----------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------
+MESHER TOPOLOGY DATA (Mesh 0):
+
+BRICKS: Total                 4684
+BRICKS: 1-CV                  2000
+BRICKS: 2-CV                  2684
+BRICKS: Bad                   0
+
+AV:     G.Total               7368
+AV:     G.Fluid               4316
+AV:     G.Solid               3052
+
+AV:     G.Fluid Thin Profile    0.00 % (0)
+AV:     G.Solid Thin Profile    0.00 % (0)
+
+AV:     G.Fluid Thin For Mega   0.00 % (0)
+AV:     G.Solid Thin For Mega   0.00 % (0)
+
+AV:     G.Fluid Non-Convex      1.88 % (81)
+AV:     G.Solid Non-Convex      4.19 % (128)
+
+FACE_A: G.Fluid          (af) 11912 (partially opened 5368)
+FACE_A: G.Solid          (as) 6512 (partially opened 5368)
+
+FACE_W: G.Total                 6016        Brick/Bound
+FACE_W: G.Fluid/Solid    (fs_g) 2956        0           
+FACE_W: G.Fluid/Fluid    (ff_g) 0           0           
+FACE_W: G.Solid/Solid    (ss_g) 0           0           
+FACE_W: G.Fluid/External (fe_g) 0
+FACE_W: G.Solid/External (se_g) 3060
+
+AV max fa count:                15
+AV max fw count:                5
+AV max fw poly count:           5
+
+MEMORY: Total                   2.897 MB
+MEMORY: Per Brick               0.633 KB
+-----------------------------------------------------------------------
+
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays) (cpu_num=4):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 fluid av=4316 cv=4272 fa=11912 fw=2956 V=2.098342e-003
+	GEOMSUBDOM (1): gi=1 solid av=3052 cv=3052 fa=6512 fw=6016 V=6.474168e-004
+	Setting nb of w-faces...OK.
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=0.6690186693950637 fw_s=0.1421370000256774 fw_nb=24624
+	GEOMSUBDOM (1):fa_s=0.1827911689812113 fw_s=0.3192533456656784 fw_nb=36872
+MESH (0) checking: OK.
+----------------------------------------------------------
+Memory Status after reading BCF:
+Memory Working Set Current = 33.15 Mb, Memory Working Set Peak = 33.15 Mb
+Total read CPT took 0.07 sec.
+MESH::Bricks: Total=4684 Gas=1632 Solid=368 Partial=2684 Irregular=0
+
+===ThermodynamicsHolder:===
+Subdom 0 Incompressible liquid thermodynamic
+	substance 0 type=fwLiquid, guid=6D4EB34F944911D4B47100A024552746, name=Water
+===ThermodynamicsHolder:===
+CD X0= -0.032565, X1= 0.032565, Y0= -0.032565, Y1= 0.032565, Z0= 0.001354, Z1= 0.648646
+Collecting Reference Parameters... OK
+Update time step in solids: STATIONARY IN SOLIDS
+77 parameter(s) in list of scalar parameters
+3 parameter(s) in list of vector parameters
+*** Goals loaded ok. Continue calculation. ***
+Total read FLD took 0.10 sec.
+
+IT   : 57  
+
+-----------------------------------------------------------------------
+Mesh dimensions:
+				I[0 ]=4
+				I[1 ]=4
+				I[2 ]=46
+Solver refinement level	I[47]=0
+
+Comp. domain size:
+				a[0  ]=-0.032565
+				a[1  ]=0.032565
+				a[2  ]=-0.032565
+				a[3  ]=0.032565
+				a[4  ]=0.001354
+				a[5  ]=0.648646
+Wall thickness		a[231]=0
+Gap size			a[232]=1
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Preparing for calculations started at	21.12.2016	20:43:10
+slv_max_lev=1
+-----------------------------------------------------------------------
+CV statisticks for fluid...
+	CV number:         4272
+	FACE_A max number: 15
+	FACE_W max number: 4
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+CV statisticks for solid...
+	CV number:         0
+	FACE_A max number: 0
+	FACE_W max number: 0
+-----------------------------------------------------------------------
+FLUID SUBDOMAIN 0
+LC =0 LAMTURB=1 NONNEWTON=0  STEAM=0  CAVITATION=0 IT=6 NT=2 NC=1 U_DIM_EXT=14
+Memory allocation for matrix entries in solver is block-wise,
+( size of block = 1048576 bytes (1Mb) ).
+
+-----------------------------------------------------------------------
+Loading mesh settings (global/local/SAR)...
+Setting regions...
+Setting regions takes 0.000 s
+-----------------------------------------------------------------------
+Solver finished at	21.12.2016	20:43:10
+Free memory:
+slv : +----------------+------------+-------+------------+------------+
+slv : | Collector name | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------+------------+-------+------------+------------+
+slv : +----------------+------------+-------+------------+------------+
+Free Geometry DB takes 0.000 s
+OK
+Free memory:
+Free Geometry DB takes 0.000 s
+OK
+Number of used processors (NPROC): 4.
+Number of mesh partitions (NPART): 4.
+Computer name:	DESKTOP-MEK70AJ
+Operating system:	Windows 10 (or higher) (Version 10.0.14393)
+Total Physical Memory = 7.96 Gb, Available Physical Memory = 4.86 Gb
+Memory Working Set Current = 17.23 Mb, Memory Working Set Peak = 17.23 Mb
+CPU:	GenuineIntel, Stepping ID = 3, Model = 12, Family = 6, Extended model = 3, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+SOLIDWORKS 2017 SP1.0
+C:\Users\pawle\Desktop\Solidworks\4\15\1\1.fld
+Configuration name:	Default
+Project name:	Проект2
+/*******************************************/
+/*         Project Summary                 */
+/*******************************************/
+Problem type:						internal
+Result resolution:					3
+Minimum gap size:					0.06513
+Minimum wall thickness:				0.06513
+Manual refinement:					Off
+Solid refinement:					Off
+Fluid substances count				1
+
+		Advanced capabilities
+Heat transfer						On
+Transient						Off
+Gravitation						Off
+Laminar flow						Off
+Compressibility					Off
+Number of solid substances			0
+Roughness:						0
+
+************************************************
+
+Geometry database loading ...OK
+Flow Simulation 2017  x64 / 3675 / SOLVER ver. efd_16_0.3630_05.09.2016+HYBRID_bugfix 
+BRANCH: efd_16_0.3675_20.10.2016
+
+
+
+STATIONARY
+
+
+LAM-BREMHORST K-EPSILON TURBULENCE MODEL
+EXTERNAL=1  CHT=0  FROZEN=0  P_REF=1  RADIATION=0  HVAC_COMFORT_PARAMETERS=0
+-----------------------------------------------------------------------
+Allocating meshes:
+	CPU count: 4
+	MESH 0:
+		Sub-meshes count: 4
+-----------------------------------------------------------------------
+Memory Status before reading BCF:
+Memory Working Set Current = 22.71 Mb, Memory Working Set Peak = 22.71 Mb
+
+-----------------------------------------------------------------------
+BCF CHECKSUM DATA (Mesh 0):
+
+FACE_A Area Sum:   G.Fluid        0.6690186693950678
+FACE_A Area Sum:   G.Solid        0.1827911689812107
+FACE_W Area Sum:                  0.3192533456656785
+FACE_W Nb   Sum:                  36872
+FACE_W min curvatures sum:        -85649.98221397
+FACE_W max curvatures sum:        0.00000000
+AV Max Disbalance: G.Fluid        6.18612e-015 (cid=4136, avid=3806, pid=2350)
+AV Max Disbalance: G.Solid        7.50765e-015 (cid=4563, avid=7279, pid=2601)
+-----------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------
+MESHER TOPOLOGY DATA (Mesh 0):
+
+BRICKS: Total                 4684
+BRICKS: 1-CV                  2000
+BRICKS: 2-CV                  2684
+BRICKS: Bad                   0
+
+AV:     G.Total               7368
+AV:     G.Fluid               4316
+AV:     G.Solid               3052
+
+AV:     G.Fluid Thin Profile    0.00 % (0)
+AV:     G.Solid Thin Profile    0.00 % (0)
+
+AV:     G.Fluid Thin For Mega   0.00 % (0)
+AV:     G.Solid Thin For Mega   0.00 % (0)
+
+AV:     G.Fluid Non-Convex      1.88 % (81)
+AV:     G.Solid Non-Convex      4.19 % (128)
+
+FACE_A: G.Fluid          (af) 11912 (partially opened 5368)
+FACE_A: G.Solid          (as) 6512 (partially opened 5368)
+
+FACE_W: G.Total                 6016        Brick/Bound
+FACE_W: G.Fluid/Solid    (fs_g) 2956        0           
+FACE_W: G.Fluid/Fluid    (ff_g) 0           0           
+FACE_W: G.Solid/Solid    (ss_g) 0           0           
+FACE_W: G.Fluid/External (fe_g) 0
+FACE_W: G.Solid/External (se_g) 3060
+
+AV max fa count:                15
+AV max fw count:                5
+AV max fw poly count:           5
+
+MEMORY: Total                   2.897 MB
+MEMORY: Per Brick               0.633 KB
+-----------------------------------------------------------------------
+
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays) (cpu_num=4):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 fluid av=4316 cv=4272 fa=11912 fw=2956 V=2.098342e-003
+	GEOMSUBDOM (1): gi=1 solid av=3052 cv=3052 fa=6512 fw=6016 V=6.474168e-004
+	Setting nb of w-faces...OK.
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=0.6690186693950615 fw_s=0.1421370000256774 fw_nb=24624
+	GEOMSUBDOM (1):fa_s=0.1827911689812112 fw_s=0.3192533456656784 fw_nb=36872
+MESH (0) checking: OK.
+----------------------------------------------------------
+Memory Status after reading BCF:
+Memory Working Set Current = 32.83 Mb, Memory Working Set Peak = 32.83 Mb
+Total read CPT took 0.05 sec.
+MESH::Bricks: Total=4684 Gas=1632 Solid=368 Partial=2684 Irregular=0
+
+===ThermodynamicsHolder:===
+Subdom 0 Incompressible liquid thermodynamic
+	substance 0 type=fwLiquid, guid=6D4EB34F944911D4B47100A024552746, name=Water
+===ThermodynamicsHolder:===
+CD X0= -0.032565, X1= 0.032565, Y0= -0.032565, Y1= 0.032565, Z0= 0.001354, Z1= 0.648646
+Collecting Reference Parameters... OK
+Update time step in solids: STATIONARY IN SOLIDS
+77 parameter(s) in list of scalar parameters
+3 parameter(s) in list of vector parameters
+*** Goals loaded ok. Continue calculation. ***
+Total read FLD took 0.02 sec.
+
+IT   : 57  
+
+-----------------------------------------------------------------------
+Mesh dimensions:
+				I[0 ]=4
+				I[1 ]=4
+				I[2 ]=46
+Solver refinement level	I[47]=0
+
+Comp. domain size:
+				a[0  ]=-0.032565
+				a[1  ]=0.032565
+				a[2  ]=-0.032565
+				a[3  ]=0.032565
+				a[4  ]=0.001354
+				a[5  ]=0.648646
+Wall thickness		a[231]=0
+Gap size			a[232]=1
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Preparing for calculations started at	21.12.2016	20:46:31
+slv_max_lev=1
+-----------------------------------------------------------------------
+CV statisticks for fluid...
+	CV number:         4272
+	FACE_A max number: 15
+	FACE_W max number: 4
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+CV statisticks for solid...
+	CV number:         0
+	FACE_A max number: 0
+	FACE_W max number: 0
+-----------------------------------------------------------------------
+FLUID SUBDOMAIN 0
+LC =0 LAMTURB=1 NONNEWTON=0  STEAM=0  CAVITATION=0 IT=6 NT=2 NC=1 U_DIM_EXT=14
+Memory allocation for matrix entries in solver is block-wise,
+( size of block = 1048576 bytes (1Mb) ).
+
+-----------------------------------------------------------------------
+Loading mesh settings (global/local/SAR)...
+Setting regions...
+Setting regions takes 0.000 s
+-----------------------------------------------------------------------
+Solver finished at	21.12.2016	20:46:31
+Free memory:
+slv : +----------------+------------+-------+------------+------------+
+slv : | Collector name | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------+------------+-------+------------+------------+
+slv : +----------------+------------+-------+------------+------------+
+Free Geometry DB takes 0.000 s
+OK
+Free memory:
+Free Geometry DB takes 0.000 s
+OK
