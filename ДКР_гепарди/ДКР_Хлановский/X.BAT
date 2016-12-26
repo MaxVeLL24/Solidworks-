@@ -87,3 +87,25 @@ C:\Users\pawle\Desktop\Solidworks\ДКР_гепарди\ДКР_Хлановский\полу1+-Статический 
 C:\Users\pawle\Desktop\Solidworks\ДКР_гепарди\ДКР_Хлановский\полу1+-Статический 2
 C:\Users\pawle\Desktop\Solidworks\ДКР_гепарди\ДКР_Хлановский\полу1+-Статический 2
 C:\Users\pawle\Desktop\Solidworks\ДКР_гепарди\ДКР_Хлановский\полу11+-Статический 2
+C:\Users\pawle\Desktop\Part1-Статический 1
+C:\Users\pawle\Desktop\Part1-Статический 1
+C:\Users\pawle\Desktop\Part1-Статический 1
+C:\Users\pawle\Desktop\Part1-Статический 1
+C:\Users\pawle\Desktop\Part1-Статический 1
+C:\Users\pawle\Desktop\Part1-Статический 1
+C:\Users\pawle\Desktop\Part1-Статический 1
+C:\Users\pawle\Desktop\Part1-Статический 1
+C:\Users\pawle\Desktop\Part1-Статический 1
+C:\Users\pawle\Desktop\блок\40\Assem1-Static 1
+C:\Users\pawle\Desktop\блок\60\блок-Static 1
+C:\Users\pawle\Desktop\блок\60\Assem1-Static 1
+C:\Users\pawle\Desktop\блок\60\Assem1-Static 1
+C:\Users\pawle\Desktop\Lera DKR\Solidworks файлы\Деталь 250мм-Статический 3
+C:\Users\pawle\Desktop\Lera DKR\Solidworks файлы\Деталь 250мм-Статический 3
+C:\Users\pawle\Desktop\Lera DKR\Solidworks файлы\Деталь 250мм-Статический 3
+C:\Users\pawle\Desktop\Lera DKR\Solidworks файлы\Деталь 250мм-Статический 3
+C:\Users\pawle\Desktop\Lera DKR\Solidworks файлы\Деталь 200мм-Статический 3
+C:\Users\pawle\Desktop\Lera DKR\Solidworks файлы\Деталь 200мм-Статический 3
+C:\Users\pawle\Desktop\Lera DKR\Solidworks файлы\Деталь 200мм-Статический 3
+C:\Users\pawle\Desktop\Lera DKR\Solidworks файлы\Деталь 200мм-Статический 3
+C:\Users\pawle\Desktop\Lera DKR\Solidworks файлы\Деталь 250мм-Статический 3
